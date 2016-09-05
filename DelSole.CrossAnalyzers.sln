@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelSole.CrossAnalyzers.CSharp", "DelSole.CrossAnalyzers.CSharp\DelSole.CrossAnalyzers.CSharp\DelSole.CrossAnalyzers.CSharp.csproj", "{5B979644-FDA3-4AEA-BC4E-A46B02657FF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelSole.CrossAnalyzers.CSharp.Test", "DelSole.CrossAnalyzers.CSharp\DelSole.CrossAnalyzers.CSharp.Test\DelSole.CrossAnalyzers.CSharp.Test.csproj", "{638396CD-A362-4DA7-A4B6-E73144785FD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelSole.CrossAnalyzers.CSharp.Vsix", "DelSole.CrossAnalyzers.CSharp\DelSole.CrossAnalyzers.CSharp.Vsix\DelSole.CrossAnalyzers.CSharp.Vsix.csproj", "{C83179BE-492F-4006-9B1D-826E67F242DD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DelSole.CrossAnalyzers.VisualBasic", "DelSole.CrossAnalyzers.VisualBasic\DelSole.CrossAnalyzers.VisualBasic\DelSole.CrossAnalyzers.VisualBasic.vbproj", "{3B8DF2A8-2EF1-4253-A777-E47E3838644C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DelSole.CrossAnalyzers.VisualBasic.Test", "DelSole.CrossAnalyzers.VisualBasic\DelSole.CrossAnalyzers.VisualBasic.Test\DelSole.CrossAnalyzers.VisualBasic.Test.vbproj", "{5399E7A8-F8F1-4F2E-A5D2-9C96F3DD2A2D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DelSole.CrossAnalyzers.VisualBasic.Vsix", "DelSole.CrossAnalyzers.VisualBasic\DelSole.CrossAnalyzers.VisualBasic.Vsix\DelSole.CrossAnalyzers.VisualBasic.Vsix.vbproj", "{73E9C743-570B-48AF-A0B8-D87F5B6DFAC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B979644-FDA3-4AEA-BC4E-A46B02657FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B979644-FDA3-4AEA-BC4E-A46B02657FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B979644-FDA3-4AEA-BC4E-A46B02657FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B979644-FDA3-4AEA-BC4E-A46B02657FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638396CD-A362-4DA7-A4B6-E73144785FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638396CD-A362-4DA7-A4B6-E73144785FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638396CD-A362-4DA7-A4B6-E73144785FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638396CD-A362-4DA7-A4B6-E73144785FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83179BE-492F-4006-9B1D-826E67F242DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83179BE-492F-4006-9B1D-826E67F242DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83179BE-492F-4006-9B1D-826E67F242DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83179BE-492F-4006-9B1D-826E67F242DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8DF2A8-2EF1-4253-A777-E47E3838644C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8DF2A8-2EF1-4253-A777-E47E3838644C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8DF2A8-2EF1-4253-A777-E47E3838644C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8DF2A8-2EF1-4253-A777-E47E3838644C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5399E7A8-F8F1-4F2E-A5D2-9C96F3DD2A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5399E7A8-F8F1-4F2E-A5D2-9C96F3DD2A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5399E7A8-F8F1-4F2E-A5D2-9C96F3DD2A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5399E7A8-F8F1-4F2E-A5D2-9C96F3DD2A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E9C743-570B-48AF-A0B8-D87F5B6DFAC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E9C743-570B-48AF-A0B8-D87F5B6DFAC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E9C743-570B-48AF-A0B8-D87F5B6DFAC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E9C743-570B-48AF-A0B8-D87F5B6DFAC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
