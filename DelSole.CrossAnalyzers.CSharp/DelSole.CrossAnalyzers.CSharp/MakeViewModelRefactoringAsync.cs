@@ -18,7 +18,7 @@ using Microsoft.CodeAnalysis.Simplification;
 namespace DelSole.CrossAnalyzers.CSharp
 {
     [ExportCodeRefactoringProvider(LanguageNames.CSharp, Name = nameof(MakeViewModelRefactoringAsync)), Shared]
-    internal class MakeViewModelRefactoringAsync : CodeRefactoringProvider
+    public class MakeViewModelRefactoringAsync : CodeRefactoringProvider
     {
         private string Title = "Make ViewModel class";
 

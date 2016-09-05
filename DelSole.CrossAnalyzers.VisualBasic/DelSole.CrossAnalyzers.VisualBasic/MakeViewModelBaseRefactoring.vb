@@ -11,7 +11,7 @@ Imports Microsoft.CodeAnalysis.VisualBasic
 Imports Microsoft.CodeAnalysis.VisualBasic.Syntax
 
 <ExportCodeRefactoringProvider(LanguageNames.VisualBasic, Name:=NameOf(MakeViewModelBaseRefactoring)), [Shared]>
-Friend Class MakeViewModelBaseRefactoring
+Public Class MakeViewModelBaseRefactoring
     Inherits CodeRefactoringProvider
 
     Private Title As String = "Make ViewModelBase class"

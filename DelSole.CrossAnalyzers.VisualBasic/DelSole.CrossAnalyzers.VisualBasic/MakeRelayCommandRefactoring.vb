@@ -11,7 +11,7 @@ Imports Microsoft.CodeAnalysis.VisualBasic
 Imports Microsoft.CodeAnalysis.VisualBasic.Syntax
 
 <ExportCodeRefactoringProvider(LanguageNames.VisualBasic, Name:=NameOf(MakeRelayCommandRefactoring)), [Shared]>
-Friend Class MakeRelayCommandRefactoring
+Public Class MakeRelayCommandRefactoring
     Inherits CodeRefactoringProvider
 
     Public NotOverridable Overrides Async Function _

@@ -10,9 +10,9 @@
     <projectUrl>https://github.com/AlessandroDelSole/DelSole.CrossAnalyzers</projectUrl>
     <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>DelSole.CrossAnalyzers.VisualBasic</description>
+    <description>DelSole.CrossAnalyzers is a collection of code analyzers and refactorings for Visual Basic on multiple platforms</description>
     <releaseNotes>First release</releaseNotes>
-    <copyright>Copyright</copyright>
+    <copyright>Copyright 2016, Alessandro Del Sole</copyright>
     <tags>DelSole, VisualBasic, analyzers, roslyn, refactoring</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="" />

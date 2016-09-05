@@ -18,7 +18,7 @@ using Microsoft.CodeAnalysis.Formatting;
 namespace DelSole.CrossAnalyzers.CSharp
 {
     [ExportCodeRefactoringProvider(LanguageNames.CSharp, Name = nameof(MakeRelayCommandRefactoring)), Shared]
-    internal class MakeRelayCommandRefactoring : CodeRefactoringProvider
+    public class MakeRelayCommandRefactoring : CodeRefactoringProvider
     {
         private string Title = "Make RelayCommand<T> class";
         public async sealed override Task

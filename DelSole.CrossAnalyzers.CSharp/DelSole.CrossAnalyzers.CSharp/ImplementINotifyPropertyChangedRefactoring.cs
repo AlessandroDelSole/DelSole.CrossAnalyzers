@@ -20,7 +20,7 @@ using System.Diagnostics;
 namespace DelSole.CrossAnalyzers.CSharp
 {
     [ExportCodeRefactoringProvider(LanguageNames.CSharp, Name = nameof(ImplementINotifyPropertyChangedRefactoring)), Shared]
-    internal class ImplementINotifyPropertyChangedRefactoring : CodeRefactoringProvider
+    public class ImplementINotifyPropertyChangedRefactoring : CodeRefactoringProvider
     {
         public sealed override async Task ComputeRefactoringsAsync(CodeRefactoringContext context)
         {
