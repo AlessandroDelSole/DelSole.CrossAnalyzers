@@ -16,9 +16,9 @@ namespace DelSole.CrossAnalyzers.CSharp
         public const string DiagnosticId = "CRA001";
         internal static readonly string Title = "List(Of T) is improper for data-binding";
         internal static readonly string MessageFormat = "'{0}' is of type List(Of T). Consider assigning an object of type ObservableCollection(Of T) instead.";
-        internal const string Category = "Syntax";
+        internal const string Category = "Platform";
 
-        internal static DiagnosticDescriptor Rule = new DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, true);
+        internal static DiagnosticDescriptor Rule = new DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, true, helpLinkUri: "https://github.com/AlessandroDelSole/DelSole.CrossAnalyzers/wiki");
 
         public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics { get { return ImmutableArray.Create(Rule); } }
 

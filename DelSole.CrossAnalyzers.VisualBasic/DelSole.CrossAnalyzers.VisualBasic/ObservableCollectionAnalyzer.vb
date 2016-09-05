@@ -2,12 +2,13 @@
 Public Class DelSoleCrossAnalyzersVisualBasicAnalyzer
     Inherits DiagnosticAnalyzer
 
-    Public Const DiagnosticId As String = "CRA001"
+    Public Const DiagnosticId As String = "CRA012"
     Friend Shared ReadOnly Title As String = "List(Of T) is improper for data-binding"
     Friend Shared ReadOnly MessageFormat As String = "'{0}' is of type List(Of T). Consider assigning an object of type ObservableCollection(Of T) instead."
-    Friend Shared ReadOnly Category As String = "Syntax"
+    Friend Shared ReadOnly Category As String = "Platform"
 
-    Private Shared Rule As New DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, isEnabledByDefault:=True)
+    Private Shared Rule As New DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, isEnabledByDefault:=True,
+                                                    helpLinkUri:="https://github.com/AlessandroDelSole/DelSole.CrossAnalyzers/wiki")
 
     Public Overrides ReadOnly Property SupportedDiagnostics As ImmutableArray(Of DiagnosticDescriptor)
         Get

@@ -14,7 +14,8 @@ Public Class AsyncVoidReturnAnalyzer
     Friend Shared ReadOnly MessageFormat As LocalizableString = "Asynchronous method '{0}' does not return any value but it's not an event handler"
     Friend Const Category = "Naming"
 
-    Friend Shared Rule As New DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, True, helpLinkUri:="https://github.com/AlessandroDelSole/DotNetAnalyzers/wiki/DNA-201---Avoid-Async-Sub-methods-if-they-are-not-event-handlers.-Use-Async-Function")
+    Friend Shared Rule As New DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, True,
+                                                   helpLinkUri:="https://github.com/AlessandroDelSole/DelSole.CrossAnalyzers/wiki")
 
     Public Overrides ReadOnly Property SupportedDiagnostics As ImmutableArray(Of DiagnosticDescriptor)
         Get

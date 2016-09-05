@@ -15,7 +15,7 @@ Public Class DateTimeOffsetAnalyzer
     Friend Shared ReadOnly MessageFormat As LocalizableString = "'{0}' should be of type DateTimeOffset"
     Friend Const Category = "Platform"
 
-    Friend Shared Rule As New DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, True)
+    Friend Shared Rule As New DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, True, helpLinkUri:="https://github.com/AlessandroDelSole/DelSole.CrossAnalyzers/wiki")
 
     Public Overrides ReadOnly Property SupportedDiagnostics As ImmutableArray(Of DiagnosticDescriptor)
         Get

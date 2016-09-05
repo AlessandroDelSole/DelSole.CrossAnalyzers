@@ -16,7 +16,7 @@ Public Class AsyncSuffixAnalyzer
     Friend Const Category = "Naming"
 
     Friend Shared Rule As New DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, True,
-                                                   helpLinkUri:="https://github.com/AlessandroDelSole/DotNetAnalyzers/wiki/DNA-200---Names-of-asynchronous-methods-should-end-with-Async")
+                                                   helpLinkUri:="https://github.com/AlessandroDelSole/DelSole.CrossAnalyzers/wiki")
 
     Public Overrides ReadOnly Property SupportedDiagnostics As ImmutableArray(Of DiagnosticDescriptor)
         Get

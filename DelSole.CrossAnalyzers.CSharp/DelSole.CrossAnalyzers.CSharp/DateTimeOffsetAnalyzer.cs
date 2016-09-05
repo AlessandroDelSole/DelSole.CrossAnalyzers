@@ -18,7 +18,7 @@ namespace DelSole.CrossAnalyzers.CSharp
         internal static readonly LocalizableString MessageFormat = "'{0}' should be of type DateTimeOffset";
         internal const string Category = "Platform";
 
-        internal static DiagnosticDescriptor Rule = new DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, true);
+        internal static DiagnosticDescriptor Rule = new DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Warning, true, helpLinkUri: "https://github.com/AlessandroDelSole/DelSole.CrossAnalyzers/wiki");
 
         public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics { get { return ImmutableArray.Create(Rule); } }
 
