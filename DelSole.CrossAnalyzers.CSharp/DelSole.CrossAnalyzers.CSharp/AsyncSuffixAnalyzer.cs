@@ -38,6 +38,8 @@ namespace DelSole.CrossAnalyzers.CSharp
                 return;
             }
 
+            if (methodSymbol.ReturnType.ToString().ToLower() == "void") return;
+
             if (!methodSymbol.Name.ToLowerInvariant().EndsWith("async"))
             {
                 var diag = Diagnostic.Create(Rule, methodSymbol.Locations[0], methodSymbol.Name);

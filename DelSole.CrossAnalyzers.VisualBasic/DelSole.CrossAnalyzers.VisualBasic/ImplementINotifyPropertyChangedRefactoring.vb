@@ -12,6 +12,9 @@ Imports Microsoft.CodeAnalysis.Text
 Imports Microsoft.CodeAnalysis.VisualBasic
 Imports Microsoft.CodeAnalysis.VisualBasic.Syntax
 
+' This refactoring is a remake of an example created by the Roslyn team, available at: https://github.com/dotnet/roslyn/tree/master/src/Samples/VisualBasic/ImplementNotifyPropertyChanged
+' The original sample has a different implementation of the interface, here I provide a more common implementation.
+
 <ExportCodeRefactoringProvider(LanguageNames.VisualBasic, Name:=NameOf(ImplementINotifyPropertyChangedRefactoring)), [Shared]>
 Public Class ImplementINotifyPropertyChangedRefactoring
     Inherits CodeRefactoringProvider

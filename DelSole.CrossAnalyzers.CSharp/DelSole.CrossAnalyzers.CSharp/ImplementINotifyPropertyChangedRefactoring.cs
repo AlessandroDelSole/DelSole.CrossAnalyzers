@@ -19,6 +19,10 @@ using System.Diagnostics;
 
 namespace DelSole.CrossAnalyzers.CSharp
 {
+
+    // This refactoring is based on an example created by the Roslyn team at https://github.com/dotnet/roslyn/tree/master/src/Samples/CSharp/ImplementNotifyPropertyChanged
+    // In my implementation, I expose a more common implementation of INotifyPropertyChanged and the invocation of OnPropertyChanged with CallerMemberName attribute
+
     [ExportCodeRefactoringProvider(LanguageNames.CSharp, Name = nameof(ImplementINotifyPropertyChangedRefactoring)), Shared]
     public class ImplementINotifyPropertyChangedRefactoring : CodeRefactoringProvider
     {

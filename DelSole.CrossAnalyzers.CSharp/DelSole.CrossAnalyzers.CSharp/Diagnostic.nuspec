@@ -11,7 +11,7 @@
     <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>DelSole.CrossAnalyzers is a collection of code analyzers and refactorings for C# on multiple platforms</description>
-    <releaseNotes>Changed members' visibility.</releaseNotes>
+    <releaseNotes>Fixed Async analyzer to ignore void for event handlers. Improved collection analyzers to match Xamarin</releaseNotes>
     <copyright>Copyright 2016, Alessandro Del Sole</copyright>
     <tags>DelSole, CSharp, analyzers, roslyn, refactoring</tags>
     <frameworkAssemblies>

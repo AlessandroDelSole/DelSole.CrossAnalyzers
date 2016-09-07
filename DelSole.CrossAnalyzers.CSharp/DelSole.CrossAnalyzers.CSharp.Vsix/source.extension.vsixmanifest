@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="DelSole.CrossAnalyzers.CSharp..4235498f-b593-4b43-8feb-766ecfd66da8" Version="1.0" Language="en-US" Publisher="Alessandro Del Sole"/>
+    <Identity Id="DelSole.CrossAnalyzers.CSharp..4235498f-b593-4b43-8feb-766ecfd66da8" Version="1.1" Language="en-US" Publisher="Alessandro Del Sole"/>
     <DisplayName>DelSole.CrossAnalyzers.CSharp</DisplayName>
     <Description xml:space="preserve">A collection of analyzers and refactorings for C# on multiple platforms</Description>
     <MoreInfo>https://github.com/AlessandroDelSole/DelSole.CrossAnalyzers</MoreInfo>
